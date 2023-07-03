@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./parent-data.component.css']
 })
 export class ParentDataComponent {
+  username: string = 'Fernanda';
+  title: string = 'title'
 
+  constructor() { }
 }
