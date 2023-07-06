@@ -12,6 +12,8 @@ export class DirectivesComponent implements OnInit {
 
   classes = ["green-title", "small-title"]
 
+  underline = 'underline-title';
+
   constructor() { }
 
   ngOnInit(): void {}
